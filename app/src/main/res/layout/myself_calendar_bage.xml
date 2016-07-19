@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_calendar"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="@dimen/sign_margin_left"
+    android:background="@drawable/shape_linerlayout"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/common_calendar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="日"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/common_size3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="一"
+            android:textSize="@dimen/common_size3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="二"
+            android:textSize="@dimen/common_size3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="三"
+            android:textSize="@dimen/common_size3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="四"
+            android:textSize="@dimen/common_size3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="五"
+            android:textSize="@dimen/common_size3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="六"
+            android:textSize="@dimen/common_size3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/common_calendar_content"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/common_size3"
+        android:orientation="vertical" >
+
+        <include layout="@layout/myself_calendar_bage_horizontal" />
+
+        <include layout="@layout/myself_calendar_bage_horizontal" />
+
+        <include layout="@layout/myself_calendar_bage_horizontal" />
+
+        <include layout="@layout/myself_calendar_bage_horizontal" />
+
+        <include layout="@layout/myself_calendar_bage_horizontal" />
+
+        <include layout="@layout/myself_calendar_bage_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>
